@@ -76,7 +76,7 @@ class BottomNavigationPage extends StatelessWidget {
                     icon: ClipOval(
                       child: Icon(Icons.person, size: 25),
                     ),
-                    label: 'My Network',
+                    label: 'Network',
                   ),
                   BottomNavigationBarItem(
                     icon: Column(

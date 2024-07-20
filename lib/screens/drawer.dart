@@ -46,7 +46,7 @@ class AppDrawer extends StatelessWidget {
               padding: EdgeInsets.zero,
               children: [
                 ListTile(
-                  title: Text('45 profileviewers'),
+                  title: Text('45 profile viewers',style: TextStyle(color: Colors.black),),
                   onTap: () {
                     // Handle item 1 tap
                     Navigator.of(context).pop(); // Close the drawer
@@ -61,21 +61,21 @@ class AppDrawer extends StatelessWidget {
                 ),
                 Divider(),
                 ListTile(
-                  title: Text('Saved posts',style: TextStyle(fontSize: 26,fontWeight: FontWeight.w500, ),),
+                  title: Text('Saved posts',style: TextStyle(fontSize: 24,fontWeight: FontWeight.w500, ),),
                   onTap: () {
                     // Handle item 2 tap
                     Navigator.of(context).pop(); // Close the drawer
                   },
                 ),
                 ListTile(
-                  title: Text('Groups',style: TextStyle(fontSize: 26,fontWeight: FontWeight.w500, ),),
+                  title: Text('Groups',style: TextStyle(fontSize: 24,fontWeight: FontWeight.w500, ),),
                   onTap: () {
                     // Handle item 2 tap
                     Navigator.of(context).pop(); // Close the drawer
                   },
                 ),
                 ListTile(
-                  title: Text('Games',style: TextStyle(fontSize: 26,fontWeight: FontWeight.w500, ),),
+                  title: Text('Games',style: TextStyle(fontSize: 24,fontWeight: FontWeight.w500, ),),
                   onTap: () {
                     // Handle item 2 tap
                     Navigator.of(context).pop(); // Close the drawer
@@ -95,7 +95,7 @@ class AppDrawer extends StatelessWidget {
 
                 ListTile(
                   leading: Icon(Icons.rectangle),
-                  title: Text('Try Premium for PKRO'),
+                  title: Text('Try Premium for PKRO',style: TextStyle(fontWeight: FontWeight.w300),),
                   onTap: () {
                     // Handle logout tap
                     Navigator.of(context).pop(); // Close the drawer
@@ -103,7 +103,7 @@ class AppDrawer extends StatelessWidget {
                 ),
                 ListTile(
                   leading: Icon(Icons.settings),
-                  title: Text('Settings'),
+                  title: Text('Settings',style: TextStyle(fontWeight: FontWeight.w300),),
                   onTap: () {
                     // Handle settings tap
                     Navigator.of(context).pop(); // Close the drawer

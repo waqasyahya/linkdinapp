@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-
 import 'package:linkdinapp/screens/BottomBar.dart';
 import 'package:linkdinapp/screens/splash.dart';
+
+
+
 
 import 'Routes/routes.dart';
 void main() async {

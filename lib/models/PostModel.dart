@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-void showHalfScreenModal() {
+void showHalfScreenModalpost() {
   showModalBottomSheet(
     context: Get.context!,
     isScrollControlled: true,
     builder: (BuildContext context) {
       return Container(
-        height: Get.height / 2,
+        height: Get.height / 3,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.only(
